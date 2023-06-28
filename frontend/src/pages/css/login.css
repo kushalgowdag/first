@@ -1,0 +1,69 @@
+.login-page{
+    height: 90vh;
+    width: 100%;
+    background-color: rgb(108, 108, 108);
+    display: grid;
+    place-items: center;
+}
+.login-box{
+    background-color: white;
+    height: 500px;
+    width: 400px;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 40px;
+    padding: 50px;
+}
+.login-header{
+    font-family: "montserrat";
+    margin-bottom: 50px;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    margin-top: 10px;
+    /* justify-content: center; */
+    /* background-color: aqua; */
+}
+.login-input{
+    display: block;
+    height: 40px;
+    width: 300px;
+    margin: 10px;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background: rgb(225, 225, 225);
+}
+.login-error{
+    color: red;
+    font-size: 13px;
+}
+.login-button{
+    height: 40px;
+    width: 300px;
+    margin: 15px;
+    background-color: rgb(108, 108, 108);
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.login-submit-error{
+    font-size: 13px;
+    color: red;
+}
+.login-hr{
+    width: 220px;
+    margin: 30px;
+}
+.register-link{
+    text-decoration: none;
+    color: black;
+    margin-bottom: 30px;
+}

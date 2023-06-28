@@ -1,0 +1,26 @@
+.product-page{
+
+}
+.product-display{
+    display: flex;
+    width: 100%;
+}
+.product-image-box{
+    flex: 1;
+    padding: 30px;
+}
+.product-image{
+    width: 300px;
+}
+.product-info{
+    flex: 1;
+    padding: 30px;
+}
+.product-name{
+    margin: 20px 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+.product-price{
+
+}

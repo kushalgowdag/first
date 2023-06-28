@@ -1,0 +1,38 @@
+header{
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(108, 108, 108);
+    display: block;
+}
+nav{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    box-shadow: 1px 1px 5px 1px rgb(220, 220, 220);
+    font-family: "montserrat";
+}
+.logo{
+    color: white;
+    font-weight: 650;
+    font-size: 20px;
+    cursor: pointer;
+}
+.navLinks > ul{
+    display: flex;
+    list-style: none;
+}
+.navLink{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    cursor: pointer;
+}
+.navIcon{
+    margin: 15px;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
